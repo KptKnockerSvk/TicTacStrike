@@ -1,0 +1,360 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.2f1 (d74737c6db50) revision 14108471'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'sk' Physical Memory: 32656 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Pc/3Dgame/TicTacStrike
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+51739
+Successfully changed project path to: C:/Users/Pc/3Dgame/TicTacStrike
+C:/Users/Pc/3Dgame/TicTacStrike
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [22884] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 3461333270 [EditorId] 3461333270 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O7Q9IA9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [22884] Host "[IP] 192.168.1.101 [Port] 0 [Flags] 2 [Guid] 3461333270 [EditorId] 3461333270 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-O7Q9IA9) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.2f1 (d74737c6db50)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Pc/3Dgame/TicTacStrike/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 (ID=0x1b81)
+    Vendor:   NVIDIA
+    VRAM:     8081 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56220
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008651 seconds.
+- Loaded All Assemblies, in  0.367 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.235 seconds
+Domain Reload Profiling: 601ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (159ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (138ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (183ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Pc\3Dgame\TicTacStrike\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Pc\3Dgame\TicTacStrike\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.730 seconds
+Refreshing native plugins compatible for Editor in 2.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in .\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.722 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (543ms)
+		LoadAssemblies (247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (342ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (312ms)
+			ScanForSourceGeneratedMonoScriptInfo (14ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (48ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (57.2 KB). Loaded Objects now: 3625.
+Memory consumption went from 134.4 MB to 134.3 MB.
+Total: 9.210300 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.105000 ms MarkObjects: 8.793500 ms  DeleteObjects: 0.107200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17067.960647 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2_albedo.png
+  artifactKey: Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2_albedo.png using Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4ec8d12c23207d2eb152ea4b58be2d') in 0.050193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 21.065642 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2_albedo.png
+  artifactKey: Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2_albedo.png using Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '666b628a06e632df6159ae4639fb33cd') in 0.062830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 42.633093 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2_albedo.png
+  artifactKey: Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2_albedo.png using Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d9cc0676ae3c8239ee9e67fc580017') in 0.028917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.603655 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2_albedo.png
+  artifactKey: Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2_albedo.png using Guid(ead85cc7a3054eeebf1aeb6bfcfb4172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f0abf18ec2a997c75035d9f16695ecb') in 0.010317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 216.980564 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2.mat
+  artifactKey: Guid(b15c747cbd91a5a4989b73c2da3149b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2.mat using Guid(b15c747cbd91a5a4989b73c2da3149b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ad8b26c3aa3828384d51befb943169') in 0.048658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Materials/brokenGlass/glassBroken2_metal_smoothness.png
+  artifactKey: Guid(21aee739ee414938b4028e1792a6c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/glassBroken2_metal_smoothness.png using Guid(21aee739ee414938b4028e1792a6c79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10479d73ee47d72667138e92f90663fe') in 0.013186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.445077 seconds.
+  path: Assets/Materials/brokenGlass/Materials/g_albedo.mat
+  artifactKey: Guid(7781295d5d7726945969f3f4643fe426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/g_albedo.mat using Guid(7781295d5d7726945969f3f4643fe426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b485c9e550fe1a8d615a9a46664f9bf') in 0.007143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/brokenGlass/Materials/g_rough.mat
+  artifactKey: Guid(94bc21ee29263654f8eb18ed45553dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/g_rough.mat using Guid(94bc21ee29263654f8eb18ed45553dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ed974bfa39b52c082a6d9f90e0f2f6') in 0.006875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.020700 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken2_albedo 2.mat
+  artifactKey: Guid(d9facf25b6243e84eb5788546ab54d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken2_albedo 2.mat using Guid(d9facf25b6243e84eb5788546ab54d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3a3c7d66646586c013a81c4ace23b0') in 0.032959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_normal.mat
+  artifactKey: Guid(16f291809b34c034fb6b2540bdb3e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_normal.mat using Guid(16f291809b34c034fb6b2540bdb3e021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d52ccf89010b659e0ace84d198a6221') in 0.025271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_normal 3.mat
+  artifactKey: Guid(e7c39c376fe462841810ad8be9385b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_normal 3.mat using Guid(e7c39c376fe462841810ad8be9385b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56064d250980e9f283246a6afa24ad30') in 0.008163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_normal 2.mat
+  artifactKey: Guid(ba636a64f3f8da64b900c09020f8c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_normal 2.mat using Guid(ba636a64f3f8da64b900c09020f8c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00827efc387219a80578f5d88efef32') in 0.007449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_height 2.mat
+  artifactKey: Guid(a8ba2fea59a2c6a4ca409f9002bbcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_height 2.mat using Guid(a8ba2fea59a2c6a4ca409f9002bbcef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c063bcc4969172224912e7402fd41578') in 0.008403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_height 1.mat
+  artifactKey: Guid(253f96c83a5ac304a93601bba35bd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_height 1.mat using Guid(253f96c83a5ac304a93601bba35bd868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8939aa671cc78fd7a15ab9e0172796ec') in 0.007328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_height 3.mat
+  artifactKey: Guid(4f6e076d643f60f4b9cdfed03aee9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_height 3.mat using Guid(4f6e076d643f60f4b9cdfed03aee9094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750218acd7c422472d3389a7ebf4bd46') in 0.009335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_height.mat
+  artifactKey: Guid(99b3461908aa678479f32ae33b9fc16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_height.mat using Guid(99b3461908aa678479f32ae33b9fc16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ac2881e1692d4bbb2cf568564c2d096') in 0.006155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_metal_smoothness 1.mat
+  artifactKey: Guid(172bd39bb39e6524d9063641007feb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_metal_smoothness 1.mat using Guid(172bd39bb39e6524d9063641007feb5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e785bce447f667290bddc03010eecc') in 0.007058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_albedo 2.mat
+  artifactKey: Guid(8ab5f5b737a99984aa0f835785d323c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_albedo 2.mat using Guid(8ab5f5b737a99984aa0f835785d323c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23922eb2086e04662c218a9143c6583c') in 0.008067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken_maskmap 2.mat
+  artifactKey: Guid(9399b4eb8e6eca4429ca8ae49391eb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken_maskmap 2.mat using Guid(9399b4eb8e6eca4429ca8ae49391eb97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98966e715e52b8f422b705bc93564e4b') in 0.008242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/brokenGlass/Materials/glassBroken2_albedo 1.mat
+  artifactKey: Guid(e73d98d2ab1f3cf47ad3ff28e2da0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brokenGlass/Materials/glassBroken2_albedo 1.mat using Guid(e73d98d2ab1f3cf47ad3ff28e2da0df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9dc5ac8c0adfb798f1b69a6bdfc662') in 0.007782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

@@ -9,6 +9,7 @@ TagManager:
   - Coin
   - Trampoline
   - Parachute
+  - Glass
   layers:
   - Default
   - TransparentFX

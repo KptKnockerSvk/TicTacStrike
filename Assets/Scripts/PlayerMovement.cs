@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 
 
@@ -10,15 +11,18 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float movementSpeed = 6f;
     [SerializeField] float jumpForce = 5f;
 
+    [SerializeField] Material mater;
     [SerializeField] Transform groundCheck;
     [SerializeField] LayerMask ground;
+    
 
     [SerializeField] AudioSource jumpSound;
     [SerializeField] AudioSource chuteSound;
     [SerializeField] AudioSource trampSound;
+    [SerializeField] AudioSource glassSound;
 
 
-    public GameObject[] paradrop;
+    public GameObject paradrop;
     int chuteSwitch = 0;
 
     // Start is called before the first frame update
@@ -45,13 +49,15 @@ public class PlayerMovement : MonoBehaviour
             Parachute();
         }
         if (IsGrounded() && chuteSwitch % 2 != 0)
-        {
-            for (int i = 0; i < paradrop.Length; i++)
-            {                
-                Parachute();
-            }
+        {                           
+            Parachute();            
         }
-        
+        if (Input.GetButtonDown("RageQ"))
+        {
+            Application.Quit();
+        }
+
+
 
     }
     void Parachute()
@@ -71,10 +77,8 @@ public class PlayerMovement : MonoBehaviour
             GetComponent<Rigidbody>().drag = 0;
         }
         chuteSwitch++;
-        for (int i = 0; i < paradrop.Length; i++)
-        {
-            paradrop[i].GetComponent<MeshRenderer>().enabled = val;
-        }
+        paradrop.GetComponent<MeshRenderer>().enabled = val;
+        
        
     }
 
@@ -97,6 +101,17 @@ public class PlayerMovement : MonoBehaviour
             Jump();
             jumpForce = 5f;
             trampSound.Play();
+        }
+        if (collision.gameObject.CompareTag("Glass"))
+        {
+            glassSound.Play();
+            collision.gameObject.GetComponent<breaker>().glassPower++;
+            collision.gameObject.GetComponent<Renderer>().material = mater;
+            
+            if (collision.gameObject.GetComponent<breaker>().glassPower == 2)
+            {
+                Destroy(collision.gameObject);
+            }
         }
     }
 
