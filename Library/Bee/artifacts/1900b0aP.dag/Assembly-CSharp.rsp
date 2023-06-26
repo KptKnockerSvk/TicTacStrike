@@ -315,6 +315,7 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerLife.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/ResManager.cs"
 "Assets/Scripts/Rotate.cs"
 "Assets/Scripts/SceneLoader.cs"
 "Assets/Scripts/StartMenu.cs"

@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - Pause
     - PlayerLife
     - PlayerMovement
+    - ResManager
     - Rotate
     - SceneLoader
     - StartMenu
@@ -23,6 +24,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
+    - TMPro.TMP_Dropdown
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
@@ -39,13 +41,20 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Mask
+    - UnityEngine.UI.ScrollRect
+    - UnityEngine.UI.Scrollbar
     - UnityEngine.UI.Text
+    - UnityEngine.UI.Toggle
   serializedClasses:
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
     - TMPro.FontAssetCreationSettings
     - TMPro.KerningTable
     - TMPro.TMP_Character
+    - TMPro.TMP_Dropdown/DropdownEvent
+    - TMPro.TMP_Dropdown/OptionData
+    - TMPro.TMP_Dropdown/OptionDataList
     - TMPro.TMP_FontFeatureTable
     - TMPro.TMP_FontWeightPair
     - TMPro.TMP_GlyphAdjustmentRecord
@@ -72,11 +81,17 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.FontData
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     - UnityEngine.UI.Navigation
+    - UnityEngine.UI.ScrollRect/ScrollRectEvent
+    - UnityEngine.UI.Scrollbar/ScrollEvent
     - UnityEngine.UI.SpriteState
+    - UnityEngine.UI.Toggle/ToggleEvent
   methodsToPreserve:
   - assembly: Assembly-CSharp
     fullTypeName: StartMenu
     methodName: StartGame
+  - assembly: Assembly-CSharp
+    fullTypeName: ResManager
+    methodName: SetResolution
   - assembly: Assembly-CSharp
     fullTypeName: SceneLoader
     methodName: LoadSceneLMaps
@@ -685,8 +700,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5012}
     - Class: 114
-      Script: {instanceID: 5042}
-    - Class: 114
       Script: {instanceID: 5178}
     - Class: 114
       Script: {instanceID: 5414}
@@ -829,11 +842,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2592}
     - Class: 114
+      Script: {instanceID: 2598}
+    - Class: 114
       Script: {instanceID: 2792}
     - Class: 114
       Script: {instanceID: 3074}
     - Class: 114
       Script: {instanceID: 3586}
+    - Class: 114
+      Script: {instanceID: 3834}
     - Class: 114
       Script: {instanceID: 3954}
     - Class: 114
@@ -843,13 +860,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4312}
     - Class: 114
+      Script: {instanceID: 4892}
+    - Class: 114
       Script: {instanceID: 5012}
     - Class: 114
       Script: {instanceID: 5706}
     - Class: 114
       Script: {instanceID: 6020}
     - Class: 114
+      Script: {instanceID: 6028}
+    - Class: 114
       Script: {instanceID: 7002}
+    - Class: 114
+      Script: {instanceID: 7060}
+    - Class: 114
+      Script: {instanceID: 58784}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1977,6 +2002,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 121c9f7d61c00e73b2a540b44abc2832
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ResManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Start Screen.unity
